@@ -1,0 +1,99 @@
+@font-face {
+	font-family: 'Bradesco Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(./assets/fonts/bradesco-sans-regular.woff2) format('woff2');
+}
+@font-face {
+	font-family: 'Bradesco Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url(./assets/fonts/bradesco-sans-bold.woff2) format('woff2');
+}
+@font-face {
+	font-family: 'Holly Rudolph';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url(./assets/fonts/holly-rudolph.woff2) format('woff2');
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	@media (max-width: 400px) {
+		html {
+			font-size: 4vw;
+		}
+	}
+	@media (min-width: 1281px) {
+		html {
+			font-size: 1.25vw;
+		}
+	}
+	@media (min-width: 1920px) {
+		html {
+			font-size: 24px;
+		}
+	}
+	html {
+		@apply scroll-smooth bg-[#EEE0D5] text-[#8E653C];
+	}
+	picture {
+		@apply contents;
+	}
+}
+
+@layer components {
+}
+
+@layer utilities {
+	.bg-lines {
+		background-image: url(./assets/images/bg-lines.svg);
+		background-size: 0.5rem 1rem;
+	}
+	.bg-noise {
+		background-image: url(./assets/images/bg-noise.svg);
+		background-size: 8rem;
+	}
+}
+
+.animate-boxes {
+	view-timeline-name: --animate-boxes;
+	animation-timeline: --animate-boxes;
+	animation-range: entry 0% entry 100%;
+	animation-name: animate-boxes;
+}
+
+@keyframes animate-boxes {
+	0% {
+		opacity: 0;
+		transform: translateY(20rem);
+	}
+	33% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0rem);
+	}
+}
+
+@screen lg {
+	.reveal-group .reveal-fade-up {
+		transition-property: opacity, transform;
+		transition-duration: 0s;
+		opacity: 0;
+		transform: translateY(1rem);
+	}
+	.reveal-group.reveal-active .reveal-fade-up {
+		will-change: opacity;
+		transition-duration: 1s;
+		opacity: 1;
+		transform: translateY(0rem);
+	}
+}

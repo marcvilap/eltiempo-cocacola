@@ -35,12 +35,12 @@
 		{
 			image: content01,
 			title: 'El viaje Polar de Coca-Cola: un día perfecto para toda la familia',
-			link: '/',
+			link: 'https://www.eltiempo.es/tiempo-libre/el-viaje-polar-de-coca-cola-un-dia-perfecto-para-toda-la-familia',
 		},
 		{
 			image: content02,
 			title: 'Planes mágicos con los que descubrir la España más navideña',
-			link: null,
+			link: 'https://www.eltiempo.es/tiempo-libre/planes-magicos-con-los-que-descubrir-la-espana-mas-navidena-bracon',
 		},
 		{
 			image: content03,

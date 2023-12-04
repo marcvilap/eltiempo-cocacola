@@ -5,10 +5,9 @@
 </script>
 
 <a class="group/card relative overflow-clip" href={link}>
-	<enhanced:img
+	<img
 		class="aspect-square w-full object-cover transition-transform duration-1000 will-change-transform group-hover/card:scale-125"
 		src={image}
-		sizes="(min-width:1920px) 480px, (min-width:1280px) 320px"
 		loading="lazy"
 		decoding="async"
 		alt=""

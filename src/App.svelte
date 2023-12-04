@@ -4,7 +4,7 @@
 	import Footer from './lib/Footer.svelte'
 	import CardContent from './lib/CardContent.svelte'
 	import Logo from './lib/Logo.svelte'
-	import picture01 from './assets/images/picture01.png?w=860&format=avif;png&enhanced'
+	import picture01 from './assets/images/picture01.png'
 	import picture02 from './assets/images/picture02.svg'
 	import picture03 from './assets/images/picture03.svg'
 	import picture04 from './assets/images/picture04.svg'
@@ -14,22 +14,22 @@
 	import picture08 from './assets/images/picture08.svg'
 	import picture09 from './assets/images/picture09.svg'
 	import picture10 from './assets/images/picture10.svg'
-	import picture11 from './assets/images/picture11.png?w=728&format=avif;png&enhanced'
+	import picture11 from './assets/images/picture11.png'
 	import picture12 from './assets/images/picture12.svg'
 	import picture13 from './assets/images/picture13.svg'
 	import picture14 from './assets/images/picture14.svg'
 	import picture15 from './assets/images/picture15.svg'
 	import picture16 from './assets/images/picture16.svg'
-	import picture17 from './assets/images/picture17.png?w=1088&format=avif;png&enhanced'
+	import picture17 from './assets/images/picture17.png'
 	import video from './assets/videos/intro.mp4'
-	import content01 from './assets/images/content01.jpg?w=320;480&format=avif;jpg&enhanced'
-	import content02 from './assets/images/content02.jpg?w=320;480&format=avif;jpg&enhanced'
-	import content03 from './assets/images/content03.jpg?w=320;480&format=avif;jpg&enhanced'
-	import content04 from './assets/images/content04.jpg?w=320;480&format=avif;jpg&enhanced'
-	import content05 from './assets/images/content05.jpg?w=320;480&format=avif;jpg&enhanced'
-	import content06 from './assets/images/content06.jpg?w=320;480&format=avif;jpg&enhanced'
-	import content07 from './assets/images/content07.jpg?w=320;480&format=avif;jpg&enhanced'
-	import content08 from './assets/images/content08.jpg?w=320;480&format=avif;jpg&enhanced'
+	import content01 from './assets/images/content01.jpg'
+	import content02 from './assets/images/content02.jpg'
+	import content03 from './assets/images/content03.jpg'
+	import content04 from './assets/images/content04.jpg'
+	import content05 from './assets/images/content05.jpg'
+	import content06 from './assets/images/content06.jpg'
+	import content07 from './assets/images/content07.jpg'
+	import content08 from './assets/images/content08.jpg'
 
 	const items = [
 		{
@@ -79,7 +79,7 @@
 
 <Header />
 
-<main class="">
+<main>
 	<div class="grid overflow-clip lg:grid-cols-3">
 		<div use:reveal class="reveal-group">
 			<div class="reveal-fade-up bg-lines flex flex-col items-start gap-8 p-8 lg:sticky lg:top-0 lg:min-h-screen">
@@ -98,7 +98,7 @@
 		</div>
 		<div class="relative grid grid-cols-19 grid-rows-46 lg:col-span-2">
 			<div class="animate-boxes col-span-15 row-span-10 flex">
-				<enhanced:img class="m-auto w-[85%]" src={picture01} loading="eager" decoding="sync" alt="" />
+				<img class="m-auto w-[85%]" src={picture01} loading="eager" decoding="sync" alt="" />
 			</div>
 			<div class="animate-boxes col-span-4 row-span-3 flex bg-[#D30014]">
 				<img class="m-auto w-[33%]" src={picture02} loading="eager" decoding="sync" alt="" />
@@ -128,7 +128,7 @@
 				<img class="m-auto w-[40%]" src={picture10} loading="lazy" decoding="async" alt="" />
 			</div>
 			<div class="animate-boxes col-span-12 row-span-14 flex">
-				<enhanced:img class="m-auto w-[90%]" src={picture11} loading="lazy" decoding="async" alt="" />
+				<img class="m-auto w-[90%]" src={picture11} loading="lazy" decoding="async" alt="" />
 			</div>
 			<div class="animate-boxes col-span-7 row-span-5 flex bg-[#505541]">
 				<img class="m-auto w-[40%]" src={picture12} loading="lazy" decoding="async" alt="" />
@@ -146,7 +146,7 @@
 				<img class="mx-auto mb-auto w-[16%]" src={picture16} loading="lazy" decoding="async" alt="" />
 			</div>
 			<div class="animate-boxes col-span-19 row-span-12 flex">
-				<enhanced:img class="m-auto w-[85%]" src={picture17} loading="lazy" decoding="async" alt="" />
+				<img class="m-auto w-[85%]" src={picture17} loading="lazy" decoding="async" alt="" />
 			</div>
 		</div>
 	</div>

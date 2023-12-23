@@ -45,22 +45,22 @@
 		{
 			image: content03,
 			title: 'Comparte la felicidad: propuestas para recuperar el espíritu navideño ayudando al planeta',
-			link: null,
+			link: 'https://www.eltiempo.es/tiempo-libre/comparte-la-felicidad-propuestas-para-recuperar-el-espiritu-navideno-ayudando-al-planeta-bracon',
 		},
 		{
 			image: content04,
 			title: 'Descubre cómo todos podemos ser Papá Noel',
-			link: null,
+			link: 'https://www.eltiempo.es/tiempo-libre/descubre-como-todos-podemos-ser-papa-noel-bracon',
 		},
 		{
 			image: content05,
 			title: 'Mitos y realidades del Polo Norte: explorando la ciudad de la Navidad',
-			link: null,
+			link: 'https://www.eltiempo.es/tiempo-libre/mitos-y-realidades-del-polo-norte-bracon',
 		},
 		{
 			image: content06,
 			title: 'Adornos para el árbol de Navidad con los que dar una segunda vida a tus objetos',
-			link: null,
+			link: 'https://www.eltiempo.es/tiempo-libre/un-menu-magico-y-de-proximidad-con-el-que-disfrutar-al-maximo-de-nochebuena-o-nochevieja-bracon',
 		},
 		{
 			image: content07,

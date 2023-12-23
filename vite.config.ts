@@ -5,5 +5,5 @@ import { enhancedImages } from '@sveltejs/enhanced-img'
 // https://vitejs.dev/config/
 export default defineConfig({
 	plugins: [enhancedImages(), svelte()],
-	base: '/proyectos/espiritunavideno'
+	base: '/bc/espiritunavideno',
 })

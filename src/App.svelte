@@ -59,7 +59,7 @@
 		},
 		{
 			image: content06,
-			title: 'Adornos para el árbol de Navidad con los que dar una segunda vida a tus objetos',
+			title: 'Un menú (mágico y de proximidad) con el que disfrutar al máximo de Nochebuena o Nochevieja',
 			link: 'https://www.eltiempo.es/tiempo-libre/un-menu-magico-y-de-proximidad-con-el-que-disfrutar-al-maximo-de-nochebuena-o-nochevieja-bracon',
 		},
 		{

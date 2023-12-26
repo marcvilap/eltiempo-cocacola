@@ -65,12 +65,12 @@
 		{
 			image: content07,
 			title: 'Lugares más fríos de España en los que puedes sentirte Papá Noel',
-			link: null,
+			link: 'https://www.eltiempo.es/tiempo-libre/lugares-mas-frios-de-espana-en-los-que-puedes-sentirte-papa-noel-bracon',
 		},
 		{
 			image: content08,
 			title: 'Todo lo que no sabías sobre el origen (y otras curiosidades) de Papá Noel',
-			link: null,
+			link: 'https://www.eltiempo.es/tiempo-libre/todo-lo-que-no-sabias-y-otras-curiosidades-de-papa-noel-bracon',
 		},
 	]
 
